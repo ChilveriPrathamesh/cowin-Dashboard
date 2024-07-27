@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.vaccination-coverage-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c2b;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.vaccination-coverage-title {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .vaccination-coverage-title {
+    font-size: 32px;
+  }
+}
